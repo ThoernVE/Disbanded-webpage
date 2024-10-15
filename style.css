@@ -1,6 +1,10 @@
+header{
+    color: gold;
+}
+
 body
 {
-background-color: whitesmoke;
-color: black;
+background-color: rgb(28, 28, 172);
+color: gold;
 font-family: 'Courier New', Courier, monospace;
 }
