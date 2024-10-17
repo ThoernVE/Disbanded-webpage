@@ -4,7 +4,20 @@ header{
 
 body
 {
-background-color: rgb(28, 28, 172);
-color: gold;
+background-color: rgb(56, 56, 95);
+color: rgb(235, 201, 8);
 font-family: 'Courier New', Courier, monospace;
+}
+
+hr{
+    color: gold
+}
+
+#raiderbody{
+    text-align: center;
+}
+
+#raiderpictures{
+    height: 200px;
+    width: 200px;
 }
