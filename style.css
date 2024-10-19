@@ -21,6 +21,12 @@ hr{
     height: 200px;
     width: 200px;
 }
-a:hover{
+a{
     color:aliceblue;
 }
+
+a:hover{
+    color: burlywood;
+    font-weight: bold;
+}
+
