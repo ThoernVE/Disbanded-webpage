@@ -16,4 +16,4 @@ function RaiderIOFunction(realm, charactername) {
         Score.innerHTML = RaiderData.mythic_plus_scores_by_season[0].scores.all;
 
     })
-}
+} 
