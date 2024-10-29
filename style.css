@@ -6,9 +6,10 @@ header{
     color: gold;
     background-image: url(images/disbandedheader.jpg);
     background-size: 400px, 700px;
-    height: 400px;
+    height: 460px;
     background-repeat: no-repeat;
     background-position: center;
+    background-position-y: top;
     background-color:rgb(212, 197, 173);
 }
 
@@ -40,8 +41,26 @@ a:hover{
     font-weight: bold;
 }
 
-header{
-    text-align: center;
+.container{
+    height:460px;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: flex-end;
+
 }
+
+.item{
+    border: 2px solid black;
+    font-size: 50px;
+    color:black;
+    background-color: rgb(212, 197, 173);
+    
+}
+
+.item:hover{
+    background-color: rgb(187, 141, 66)
+}
+
 
 
