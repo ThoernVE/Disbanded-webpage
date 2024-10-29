@@ -4,7 +4,12 @@ html{
 
 header{
     color: gold;
-
+    background-image: url(images/disbandedheader.jpg);
+    background-size: 400px, 700px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:rgb(212, 197, 173);
 }
 
 body
