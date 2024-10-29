@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTC-8" />
-    <link rel="stylesheet" , href="style.css" />
-    <title>Disbanded raiders</title>
-  </head>
 
-  <body id="raiderbody">
-    <header>
-      <a href="index.html">Home</a>
-      <a href="news.html">News</a>
-      <a href="raiders.html">Raiders</a>
-      <a href="logs.html">Logs</a>
-      <a href="about.html">About</a>
-      <a href="apply.html">Apply</a>
-    </header>
-    <a href="#dps">DPS</a>
-    <a href="#healer">Healers</a>
-    <a href="#tank">Tanks</a>
+<head>
+  <meta charset="UTC-8" />
+  <link rel="stylesheet" , href="style.css" />
+  <script src="script.js" defer></script>
+  <title>Disbanded raiders</title>
+</head>
 
-    <section id="dps">
-      <h1>DPS Players</h1>
+<body id="raiderbody">
+  <header>
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="raiders.html">Raiders</a>
+    <a href="results.html">Results</a>
+    <a href="about.html">About</a>
+    <a href="apply.html">Apply</a>
+  </header>
+  <a href="#dps">DPS</a>
+  <a href="#healer">Healers</a>
+  <a href="#tank">Tanks</a>
 
-      <h3>Poods</h3>
-      <img
-        src="images/PoodsPaladin.jpg"
-        alt="Poods Paladin"
-        class="raiderpictures"
-      />
+  <section id="dps">
+    <h1>DPS Players</h1>
+
+    <h3>Poods</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/8/170379016-avatar.jpg" alt="Poods Paladin" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Poods')">
+      <summary>Raiderinfo</summary>
       <p>DPS</p>
       <h5>Main Specialization</h5>
       <p>Retribution Paladin</p>
@@ -35,17 +35,16 @@
       <p>--</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>--</p>
-      <a href="https://www.warcraftlogs.com/character/id/80844319"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="PoodsScore"></p>
+      <a href="https://www.warcraftlogs.com/character/id/80844319">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Bada</h3>
-      <img
-        src="images/BadaDk.jpg"
-        alt="Bada Deathknight"
-        class="raiderpictures"
-      />
+    <h3>Bada</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/208/70444240-avatar.jpg" alt="Bada Deathknight" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Bada')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>DPS</p>
       <h5>Main Specialization</h5>
@@ -54,17 +53,16 @@
       <p>Unholy Deathknight</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>Queen Ansurek</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/bada"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="BadaScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/bada">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Kodhaks</h3>
-      <img
-        src="images/kodhaks dh.jpg"
-        alt="Kodhaks Demon Hunter"
-        class="raiderpictures"
-      />
+    <h3>Kodhaks</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/102/170007910-avatar.jpg" alt="Kodhaks Demon Hunter" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Kodhaks')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>DPS</p>
       <h5>Main Specialization</h5>
@@ -73,17 +71,16 @@
       <p>Havoc Demon Hunter</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>Queen Ansurek</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/kodhaks"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="KodhaksScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/kodhaks">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Jeppamaskin</h3>
-      <img
-        src="images/jeppamaskinwarrior.jpg"
-        alt="Jeppamaskin Warrior"
-        class="raiderpictures"
-      />
+    <h3>Jeppamaskin</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/tarren-mill/201/184703689-avatar.jpg" alt="Jeppamaskin Warrior" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('tarren-mill', 'Jeppamaskin')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>DPS</p>
       <h5>Main Specialization</h5>
@@ -92,18 +89,16 @@
       <p>Holy Paladin</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>Queen Ansurek</p>
-      <a
-        href="https://www.warcraftlogs.com/character/eu/tarren-mill/jeppamaskin"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="JeppamaskinScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/tarren-mill/jeppamaskin">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Ginoblin</h3>
-      <img
-        src="images/ginoblin shadowpriest.jpg"
-        alt="Ginoblin Priest"
-        class="raiderpictures"
-      />
+    <h3>Ginoblin</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/110/168334446-avatar.jpg" alt="Ginoblin Priest" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Ginoblin')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>DPS</p>
       <h5>Main Specialization</h5>
@@ -112,17 +107,16 @@
       <p>Shadow Priest</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>Nexus Princess Ky´ Vesa</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/ginoblin"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="GinoblinScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/ginoblin">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>AppleTurtle</h3>
-      <img
-        src="images/Appleturtle.jpg"
-        alt="AppleTurtle Hunter"
-        class="raiderpictures"
-      />
+    <h3>AppleTurtle</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/128/164120960-avatar.jpg" alt="AppleTurtle Hunter" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Appleturtle')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>DPS</p>
       <h5>Main Specialization</h5>
@@ -131,17 +125,16 @@
       <p>--</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>--</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/appleturtle"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="AppleturtleScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/appleturtle">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Rejzia</h3>
-      <img
-        src="images/rejziarogue.jpg"
-        alt="Rejzia Rogue"
-        class="raiderpictures"
-      />
+    <h3>Rejzija</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/84/167693908-avatar.jpg" alt="Rejzia Rogue" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Rejzija')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>DPS</p>
       <h5>Main Specialization</h5>
@@ -150,17 +143,16 @@
       <p>Outlaw Rogue</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>Nexus Princess Ky´ Vesa</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/rejzia"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="RejzijaScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/rejzija">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Anýa</h3>
-      <img
-        src="images/anyashaman.jpg"
-        alt="Anya shaman"
-        class="raiderpictures"
-      />
+    <h3>Anýa</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/draenor/173/173162669-avatar.jpg" alt="Anya shaman" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('draenor', 'Anýa')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>DPS</p>
       <h5>Main Specialization</h5>
@@ -169,17 +161,16 @@
       <p>Discipline Priest</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>Silken Court</p>
-      <a href="https://www.warcraftlogs.com/character/eu/draenor/anýa"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="AnýaScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/draenor/anýa">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Pomperriposa</h3>
-      <img
-        src="images/pomperriposalock.jpg"
-        alt="Pomperriposa Warlock"
-        class="raiderpictures"
-      />
+    <h3>Pomperriposa</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/61/169646397-avatar.jpg" alt="Pomperriposa Warlock" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Pomperriposa')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>DPS</p>
       <h5>Main Specialization</h5>
@@ -188,18 +179,16 @@
       <p>Demonology Warlock</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>Nexus Princess Ky´ Vesa</p>
-      <a
-        href="https://www.warcraftlogs.com/character/eu/stormscale/pomperriposa"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="PomperriposaScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/pomperriposa">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Grucci</h3>
-      <img
-        src="images/Grucciwar.jpg"
-        alt="Grucci Warrior"
-        class="raiderpictures"
-      />
+    <h3>Grucci</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/86/70629718-avatar.jpg" alt="Grucci Warrior" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Grucci')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>DPS</p>
       <h5>Main Specialization</h5>
@@ -208,17 +197,16 @@
       <p>--</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>--</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/grucci"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="GrucciScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/grucci">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Flaplap</h3>
-      <img
-        src="images/flaplapdruid.jpg"
-        alt="Flaplap Druid"
-        class="raiderpictures"
-      />
+    <h3>Flaplap</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/155/172833179-avatar.jpg" alt="Flaplap Druid" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Flaplap')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>DPS</p>
       <h5>Main Specialization</h5>
@@ -227,17 +215,16 @@
       <p>Balance Druid</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>Silken Court</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/flaplap"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="FlaplapScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/flaplap">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Chibla</h3>
-      <img
-        src="images/chiblashaman.jpg"
-        alt="Chibla shaman"
-        class="raiderpictures"
-      />
+    <h3>Chibla</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/46/161790766-avatar.jpg" alt="Chibla shaman" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Chibla')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>DPS</p>
       <h5>Main Specialization</h5>
@@ -246,17 +233,16 @@
       <p>--</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>--</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/chibla"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="ChiblaScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/chibla">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Fastass</h3>
-      <img
-        src="images/fastassmonk.jpg"
-        alt="Fastass Monk"
-        class="raiderpictures"
-      />
+    <h3>Fastass</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/162/172286114-avatar.jpg" alt="Fastass Monk" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Fastass')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>DPS</p>
       <h5>Main Specialization</h5>
@@ -265,21 +251,20 @@
       <p>Demonology Warlock</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>Queen Ansurek</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/ginoblin"
-        >Warcraftlogs</a
-      >
-      <hr />
-    </section>
+      <h5>M+ Score for current season</h5>
+      <p id="FastassScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/fastass">Warcraftlogs</a>
+    </details>
+    <hr />
+  </section>
 
-    <section id="healer">
-      <h1>Healers</h1>
+  <section id="healer">
+    <h1>Healers</h1>
 
-      <h3>Thoernshaman</h3>
-      <img
-        src="images/thoernshaman.jpg"
-        alt="Thoernshaman"
-        class="raiderpictures"
-      />
+    <h3>Thoernshaman</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/151/165763735-avatar.jpg" alt="Thoernshaman" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Thoernshaman')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>Healer/Flex</p>
       <h5>Main Specialization</h5>
@@ -288,18 +273,16 @@
       <p>--</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>--</p>
-      <a
-        href="https://www.warcraftlogs.com/character/eu/stormscale/thoernshaman"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="ThoernshamanScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/thoernshaman">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Vànna</h3>
-      <img
-        src="images/vannapriest.jpg"
-        alt="Vanna Priest"
-        class="raiderpictures"
-      />
+    <h3>Vànna</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/89/170506329-avatar.jpg" alt="Vanna Priest" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Vànna')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>Healer</p>
       <h5>Main Specialization</h5>
@@ -308,17 +291,16 @@
       <p>Protection Paladin from Shadowlands</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>Queen Ansurek</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/vànna"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="VànnaScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/vànna">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Leronia</h3>
-      <img
-        src="images/leroniapriest.jpg"
-        alt="Leronia Priest"
-        class="raiderpictures"
-      />
+    <h3>Leronia</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/23/87237399-avatar.jpg" alt="Leronia Priest" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Leronia')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>Healer</p>
       <h5>Main Specialization</h5>
@@ -327,17 +309,16 @@
       <p>--</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>--</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/leronia"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="LeroniaScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/leronia">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Wyvernwing</h3>
-      <img
-        src="images/wyvernwingevo.jpg"
-        alt="Wyvernwing evoker"
-        class="raiderpictures"
-      />
+    <h3>Wyvernwing</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/123/167125883-avatar.jpg" alt="Wyvernwing evoker" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Wyvernwing')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>Healer</p>
       <h5>Main Specialization</h5>
@@ -346,17 +327,16 @@
       <p>Preservation Evoker</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>Queen Ansurek</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/infecti"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="WyvernwingScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/infecti">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Infecti</h3>
-      <img
-        src="images/infectievo.jpg"
-        alt="Infecti evoker"
-        class="raiderpictures"
-      />
+    <h3>Infecti</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/123/167125883-avatar.jpg" alt="Infecti evoker" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Infecti')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>Healer</p>
       <h5>Main Specialization</h5>
@@ -365,21 +345,20 @@
       <p>None</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>Nexus Princess Ky´ Vesa</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/infecti"
-        >Warcraftlogs</a
-      >
-      <hr />
-    </section>
+      <h5>M+ Score for current season</h5>
+      <p id="InfectiScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/infecti">Warcraftlogs</a>
+    </details>
+    <hr />
+  </section>
 
-    <section>
-      <h1 id="tank">Tanks</h1>
+  <section>
+    <h1 id="tank">Tanks</h1>
 
-      <h3>Gâma</h3>
-      <img
-        src="images/gamamonk.jpg"
-        alt="Gama Monk"
-        class="raiderpictures"
-      />
+    <h3>Gâma</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/twisting-nether/221/146725341-avatar.jpg" alt="Gama Monk" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('twisting-nether', 'g%c3%a2ma')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>Tank</p>
       <h5>Main Specialization</h5>
@@ -388,17 +367,16 @@
       <p>--</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>--</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/gâma"
-        >Warcraftlogs</a
-      >
-      <hr />
+      <h5>M+ Score for current season</h5>
+      <p id="g%c3%a2maScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/twisting-nether/g%c3%a2ma">Warcraftlogs</a>
+    </details>
+    <hr />
 
-      <h3>Leroy</h3>
-      <img
-        src="images/leroydk.jpg"
-        alt="Leroy deathknight"
-        class="raiderpictures"
-      />
+    <h3>Leroy</h3>
+    <img src="https://render.worldofwarcraft.com/eu/character/stormscale/110/168334446-avatar.jpg" alt="Leroy deathknight" class="raiderpictures" />
+    <details onclick="RaiderIOFunction('stormscale', 'Leroy')">
+      <summary>Raiderinfo</summary>
       <h5>Main Role</h5>
       <p>Tank</p>
       <h5>Main Specialization</h5>
@@ -407,10 +385,12 @@
       <p>--</p>
       <h5>Favourite Boss in current Raid</h5>
       <p>--</p>
-      <a href="https://www.warcraftlogs.com/character/eu/stormscale/ginoblin"
-        >Warcraftlogs</a
-      >
-      <hr />
-    </section>
-  </body>
+      <h5>M+ Score for current season</h5>
+      <p id="LeroyScore"></p>
+      <a href="https://www.warcraftlogs.com/character/eu/stormscale/ginoblin">Warcraftlogs</a>
+    </details>
+    <hr />
+  </section>
+</body>
+
 </html>
