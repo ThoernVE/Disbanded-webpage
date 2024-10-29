@@ -7,3 +7,13 @@ function RaiderIOFunction(realm, charactername) {
 
     })
 } 
+
+function MPlusCutOff(){
+    fetch("https://raider.io/api/v1/mythic-plus/season-cutoffs?season=season-tww-1&region=eu")
+    .then((response) => response.json())
+    .then((ScoreData) => {
+        const MScore = document.getElementById("mPlusCut");
+        MScore.innerHTML = ScoreData.cutoffs.p999.all.quantileMinValue;
+
+    })
+}
