@@ -1,5 +1,10 @@
+html{
+    text-align: center;
+}
+
 header{
     color: gold;
+
 }
 
 body
@@ -29,4 +34,9 @@ a:hover{
     color: burlywood;
     font-weight: bold;
 }
+
+header{
+    text-align: center;
+}
+
 
