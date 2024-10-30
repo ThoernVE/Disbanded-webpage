@@ -16,4 +16,4 @@ function MPlusCutOff() {
             MScore.innerHTML = ScoreData.cutoffs.p999.all.quantileMinValue;
 
         })
-} 
+}
