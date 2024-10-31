@@ -57,6 +57,7 @@ a:hover{
     font-size: 50px;
     color:black;
     background-color: rgb(212, 197, 173);
+    text-decoration: none;
     
 }
 
@@ -70,6 +71,10 @@ a:hover{
 
 .raidnavigation{
     font-size:larger;
+}
+
+#dockmasterphoto{
+    width:100%;
 }
 
 
