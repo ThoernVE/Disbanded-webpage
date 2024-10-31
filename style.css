@@ -26,6 +26,12 @@ hr{
     color: rgb(252, 239, 162);
 }
 
+footer{
+    background-color: rgb(212, 197, 173);
+    width: 100%;
+    height: 200px
+}
+
 #raiderbody{
     text-align: center;
 }
@@ -47,7 +53,7 @@ a:hover{
     height:460px;
     width:100%;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     align-items: flex-end;
 
 }
@@ -75,6 +81,15 @@ a:hover{
 
 .newsphotos{
     max-width: 100%;
+}
+
+.flexitem{
+    color:black
+}
+
+.aboutImages{
+    height: 400px;
+    width: 200px;
 }
 
 #dockmasterphoto{
