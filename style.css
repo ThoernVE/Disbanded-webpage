@@ -32,6 +32,15 @@ footer{
     height: 200px
 }
 
+footer a{
+    font-size: 30px;
+    color:black;
+}
+
+footer a:hover{
+    background-color: rgb(187, 141, 66)
+}
+
 #raiderbody{
     text-align: center;
 }
