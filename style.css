@@ -73,6 +73,10 @@ a:hover{
     font-size:larger;
 }
 
+.newsphotos{
+    max-width: 100%;
+}
+
 #dockmasterphoto{
     width:100%;
 }
