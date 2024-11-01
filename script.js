@@ -24,7 +24,6 @@ function MPlusCutOff() {
 
 function setInnerText(id, value) {
     id.innerText = value;
-    console.log(`${id}`)
 }
 
 function LookUpScoreRange(){
