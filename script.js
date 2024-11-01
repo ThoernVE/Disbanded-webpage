@@ -1,6 +1,7 @@
 const scoreObject = {
     cutOffScore: 0,
     mPlusScore: 0,
+    scoreToTitle: 0,
 };
 
 function RaiderIOFunction(realm, charactername) {
@@ -26,3 +27,6 @@ function setInnerText(id, value) {
     console.log(`${id}`)
 }
 
+function LookUpScoreRange(){
+    scoreObject.scoreToTitle = scoreObject.cutOffScore - scoreObject.mPlusScore;
+}

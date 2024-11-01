@@ -20,8 +20,16 @@
             <a href="mythicplus.html" class="item item7">Mythic+</a>
         </div>
     </header>
+    <h1>Mythic Plus</h1>
     <div class="flexitem">Current Mythic Plus cutoff is:<div id="mPlusCut"></div></div>
     <button onclick="setInnerText(mPlusCut, scoreObject.cutOffScore)">Click to update cutoff</button>
+    <h2>How much score do you need for title? Put in your information below to check</h2>
+    <p>Name: <input type="text" name="charactername" value="" placeholder="Character name" id="inputName"></p>
+    <p>Server: <input type="text" name="characterserver" value="" placeholder="Character name" id="inputServer"></p>
+    <button onclick="RaiderIOFunction(inputServer.value, inputName.value)">Press to enter information</button>
+    /
+    <button onmouseover="LookUpScoreRange()" onclick="setInnerText(rangeToTitle, scoreObject.scoreToTitle)">Press to print score left to title</button>
+    <p>You have :<div id="rangeToTitle">--</div> score left to title</p>
     <footer>
         <div class="flexcontainer">
             <div class="flexitem">
