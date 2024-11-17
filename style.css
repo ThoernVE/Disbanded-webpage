@@ -23,6 +23,10 @@ color: rgb(252, 239, 162);
 font-family: 'Courier New', Courier, monospace;
 }
 
+article{
+    margin: 100px;
+}
+
 hr{
     color: rgb(252, 239, 162);
 }
@@ -52,6 +56,10 @@ footer a:hover{
 }
 a{
     color:aliceblue;
+}
+
+section{
+    margin: 100px;
 }
 
 a:hover{
@@ -115,8 +123,8 @@ a:hover{
 }
 
 .dps_item{
-    width: 500px;
-    height: 800px;
+    width: 400px;
+    height: 750px;
     background-color:rgb(212, 197, 173);
     color: black;
     border: 1px solid black;
@@ -133,8 +141,8 @@ a:hover{
 }
 
 .healer_item{
-    width: 500px;
-    height: 800px;
+    width: 400px;
+    height: 750px;
     background-color:rgb(212, 197, 173);
     color: black;
     border: 1px solid black;
@@ -151,14 +159,45 @@ a:hover{
 }
 
 .tank_item{
-    width: 500px;
-    height: 800px;
+    width: 400px;
+    height: 750px;
     background-color:rgb(212, 197, 173);
     color: black;
     border: 1px solid black;
     border-radius: 2px;
     margin: 10px;
-    margin-bottom: 50px;
+}
+
+.application_container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:rgb(212, 197, 173);
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 5%;
+}
+
+.application_item{
+    margin: 20px;
+    color: black;
+}
+
+#application_submit{
+    width: 200px;
+    height: 50px;
+    background-color:rgb(212, 197, 173);
+    border: 2px solid blacK;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+#application_submit:hover{
+        color: burlywood;
+        font-weight: bold;
+        background-color: rgb(187, 141, 66);
+        font-size: 20px;
+
 }
 
 

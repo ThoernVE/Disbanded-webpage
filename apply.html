@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet", href="style.css"> 
-        <script src="script.js" defer></script>
-        <title>Disbanded Applications</title>
-    </head>
-    <body>
-        <header>
-            <nav class="container">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" , href="style.css">
+    <script src="script.js" defer></script>
+    <title>Disbanded Applications</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
             <a href="index.html" class="item item1">Home</a>
             <a href="news.html" class="item item2">News</a>
             <a href="raiders.html" class="item item3">Raiders</a>
@@ -16,37 +18,41 @@
             <a href="about.html" class="item item5">About</a>
             <a href="apply.html" class="item item6">Apply</a>
             <a href="mythicplus.html" class="item item7">Mythic+</a>
-            </nav>
-        </header>
+        </nav>
+    </header>
+    <div class="application_container">
         <h1>Welcome to the application-page! Please fill out the form to apply to the guild</h1>
-        
+
         <form action="" method="post">
-            Please enter your characters name you wish to apply with <br>
-            <input type="text" name="name">
-            <br><br>
-            Which role would you like to apply with?<br>
-            Dps
-            <input type="radio" name="role" checked="checked">
-            Healer
-            <input type="radio" name="role">
-            Tank
-            <input type="radio" name="role">
-            <br><br>
-            Please link your warcraftlogs on relevant character <br>
-            <input type="url" name="logs">
-            <br><br>
-            Please enter the warcraftlogs of any alts you would like to apply with <br>
-            <input type="text" name="alts">
-            <br><br>
-            Please upload any relevant files <br>
-            <input type="file" name="file">
-            <br><br>
-            <input type="submit" value="submit">
+            <div class="application_item">
+                <p>Please enter your characters name you wish to apply with</p>
+                <input type="text" name="name">
+            </div>
+            <div class="application_item">
+                <p>Which role would you like to apply with?</p>
+                <p>Dps</p>
+                <input type="radio" name="role" checked="checked">
+                <p>Healer</p>
+                <input type="radio" name="role">
+                <p>Tank</p>
+                <input type="radio" name="role">
+            </div>
+            <div class="application_item">
+                <p>Please link your warcraftlogs on relevant character</p>
+                <input type="url" name="logs">
+
+                <p>Please enter the warcraftlogs of any alts you would like to apply with</p>
+                <input type="text" name="alts">
+            </div>
+            <div class="application_item">
+                <input type="submit" value="submit" id="application_submit">
+            </div>
         </form>
-        <footer>
-            <div class="flexcontainer">
-                <div class="flexitem">
-                    <nav class="footernav">
+    </div>
+    <footer>
+        <div class="flexcontainer">
+            <div class="flexitem">
+                <nav class="footernav">
                     <a href="index.html">Home</a>
                     <a href="news.html">News</a>
                     <a href="raiders.html">Raiders</a>
@@ -54,8 +60,10 @@
                     <a href="about.html">About</a>
                     <a href="apply.html">Apply</a>
                     <a href="mythicplus.html">Mythic Plus</a>
-                    </nav></div>
+                </nav>
             </div>
-        </footer>
-    </body>
+        </div>
+    </footer>
+</body>
+
 </html>
