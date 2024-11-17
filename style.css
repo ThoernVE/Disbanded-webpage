@@ -106,5 +106,23 @@ a:hover{
     width:100%;
 }
 
+.dps_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+.dps_item{
+    width: 500px;
+    height: 800px;
+    background-color:rgb(212, 197, 173);
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px;
+}
+
 
 
