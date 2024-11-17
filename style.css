@@ -124,5 +124,42 @@ a:hover{
     margin: 10px;
 }
 
+.healer_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+.healer_item{
+    width: 500px;
+    height: 800px;
+    background-color:rgb(212, 197, 173);
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.tank_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+.tank_item{
+    width: 500px;
+    height: 800px;
+    background-color:rgb(212, 197, 173);
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
 
 
