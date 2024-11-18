@@ -219,12 +219,12 @@ a:hover{
     background-color:rgb(212, 197, 173);
     color: black;
     padding: 20px;
-    border: 1px solid black;
-    border-radius: 3px;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 10px;
     margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 3px;;
 }
 
 .raider_background{
@@ -260,8 +260,26 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 30px;
+}
 
+.about_container{
+    display: flex;
+    flex-direction: column;
+}
 
+.about_item{
+    background-color:rgb(212, 197, 173);
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
 
 
