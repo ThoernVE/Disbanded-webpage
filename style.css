@@ -102,10 +102,6 @@ a:hover{
     max-width: 100%;
 }
 
-.flexitem{
-    color:black
-}
-
 .aboutImages{
     height: 300px;
     width: 200px;
@@ -270,6 +266,18 @@ h2{
 }
 
 .about_item{
+    background-color:rgb(212, 197, 173);
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.mplus_item{
     background-color:rgb(212, 197, 173);
     color: black;
     padding: 20px;

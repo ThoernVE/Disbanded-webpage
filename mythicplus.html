@@ -20,28 +20,42 @@
             <a href="mythicplus.html" class="item item7">Mythic+</a>
         </div>
     </header>
-    <h1>Mythic Plus</h1>
-    <div class="flexitem">Current Mythic Plus cutoff is:<div id="mPlusCut"></div></div>
-    <button onclick="setInnerText(mPlusCut, scoreObject.cutOffScore)">Click to update cutoff</button>
-    <h2>How much score do you need for title? Put in your information below to check</h2>
-    <p>Name: <input type="text" name="charactername" value="" placeholder="Charactername" id="inputName"></p>
-    <p>Server: <input type="text" name="characterserver" value="" placeholder="Characterserver" id="inputServer"></p>
-    <button onclick="RaiderIOFunction(inputServer.value, inputName.value)">Press to enter information</button>
-    /
-    <button onmouseover="LookUpScoreRange()" onclick="setInnerText(rangeToTitle, scoreObject.scoreToTitle)">Press to print score left to title</button>
-    <p>You have :<div id="rangeToTitle">--</div> score left to title</p>
+    <div class="mplus_container">
+        <h1>Mythic Plus</h1>
+        <div class="mplus_item">Current Mythic Plus cutoff is:<div id="mPlusCut">--</div>
+
+            <button onclick="setInnerText(mPlusCut, scoreObject.cutOffScore)">Click to update cutoff</button>
+        </div>
+        <h2>How much score do you need for title? Put in your information below to check</h2>
+        <div class="mplus_item">
+            <p>Name: <input type="text" name="charactername" value="" placeholder="Charactername" id="inputName"></p>
+            <p>Server: <input type="text" name="characterserver" value="" placeholder="Characterserver"
+                    id="inputServer">
+            </p>
+            <button onclick="RaiderIOFunction(inputServer.value, inputName.value)">Press to enter information</button>
+            /
+            <button onmouseover="LookUpScoreRange()"
+                onclick="setInnerText(rangeToTitle, scoreObject.scoreToTitle)">Press to
+                print score left to title</button>
+        </div>
+        <div class="mplus_item">
+            <p>You have :
+            <div id="rangeToTitle">--</div> score left to title</p>
+        </div>
+    </div>
     <footer>
         <div class="flexcontainer">
             <div class="flexitem">
                 <nav class="footernav">
-                <a href="index.html">Home</a>
-                <a href="news.html">News</a>
-                <a href="raiders.html">Raiders</a>
-                <a href="results.html">Results</a>
-                <a href="about.html">About</a>
-                <a href="apply.html">Apply</a>
-                <a href="mythicplus.html">Mythic Plus</a>
-                </nav></div>
+                    <a href="index.html">Home</a>
+                    <a href="news.html">News</a>
+                    <a href="raiders.html">Raiders</a>
+                    <a href="results.html">Results</a>
+                    <a href="about.html">About</a>
+                    <a href="apply.html">Apply</a>
+                    <a href="mythicplus.html">Mythic Plus</a>
+                </nav>
+            </div>
         </div>
     </footer>
 </body>
