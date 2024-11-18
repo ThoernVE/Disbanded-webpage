@@ -31,6 +31,18 @@ hr{
     color: rgb(252, 239, 162);
 }
 
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h1, h2, h3{
+    padding-bottom: 5%
+}
+
 footer{
     background-color: rgb(212, 197, 173);
     width: 100%;
@@ -172,7 +184,9 @@ a:hover{
     background-color:rgb(212, 197, 173);
     border: 1px solid black;
     border-radius: 2px;
-    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
 }
 
 .application_item{
@@ -215,10 +229,9 @@ a:hover{
     background-color:rgb(212, 197, 173);
     color: black;
     padding: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
     border: 1px solid black;
     border-radius: 3px;;
 }
@@ -252,13 +265,6 @@ a:hover{
     margin-top:20px;
 }
 
-h1{
-    font-size: 50px;
-}
-
-h2{
-    font-size: 30px;
-}
 
 .about_container{
     display: flex;
@@ -273,8 +279,7 @@ h2{
     border-radius: 3px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5%;
 }
 
 .mplus_item{
@@ -285,8 +290,7 @@ h2{
     border-radius: 3px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 5%;
 }
 
 
