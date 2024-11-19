@@ -1,0 +1,100 @@
+.dps_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+.dps_item{
+    width: 400px;
+    height: 750px;
+    background-color:rgb(212, 197, 173);
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.healer_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+.healer_item{
+    width: 400px;
+    height: 750px;
+    background-color:rgb(212, 197, 173);
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.tank_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+.tank_item{
+    width: 400px;
+    height: 750px;
+    background-color:rgb(212, 197, 173);
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.raider_background{
+    background-color:rgb(212, 197, 173);
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.raider_link_container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.raider_item{
+    background-color:rgb(212, 197, 173);
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100px;
+    margin-top:20px;
+}
+
+.raidnavigation:hover{
+    color:black;
+}
+
+.raidnavigation{
+    font-size:larger;
+    color:black;
+}
+
+#raiderbody{
+    text-align: center;
+}
+
+.raiderpictures{
+    height: 200px;
+    width: 200px;
+}

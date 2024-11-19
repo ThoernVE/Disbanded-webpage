@@ -1,0 +1,33 @@
+.application_container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:rgb(212, 197, 173);
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.application_item{
+    margin: 20px;
+    color: black;
+}
+
+#application_submit{
+    width: 200px;
+    height: 50px;
+    background-color:rgb(212, 197, 173);
+    border: 2px solid blacK;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+#application_submit:hover{
+        color: burlywood;
+        font-weight: bold;
+        background-color: rgb(187, 141, 66);
+        font-size: 20px;
+
+}
