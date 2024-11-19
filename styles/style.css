@@ -4,7 +4,7 @@ html{
 
 header{
     color: gold;
-    background-image: url(images/disbandedheader-removebg-preview.png);
+    background-image: url(/images/disbandedheader-removebg-preview.png);
     background-size: 400px, 700px;
     height: 460px;
     width: 100%;
