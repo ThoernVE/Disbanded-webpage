@@ -29,3 +29,9 @@ function setInnerText(id, value) {
 function LookUpScoreRange(){
     scoreObject.scoreToTitle = scoreObject.cutOffScore - scoreObject.mPlusScore;
 }
+
+function CompareToCutOff(realm, characterName, idScore, scoreLeft){
+    RaiderIOFunction(realm, characterName);
+    LookUpScoreRange();
+    setTimeout(setInnerText(idScore, scoreLeft), 1000);
+}
