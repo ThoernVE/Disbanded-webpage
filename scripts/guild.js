@@ -5,7 +5,7 @@ guild = {
     realm: "",
     profile_url: "",
     raid_rankings: {
-      nerubar_palace: {
+      nerubarPalace: {
         normal: {
           world: 0,
           region: 0,
@@ -22,7 +22,7 @@ guild = {
           realm: 0
         }
       },
-      blackrock_depths: {
+      blackrockDepths: {
         normal: {
           world: 0,
           region: 0,
@@ -39,7 +39,7 @@ guild = {
           realm: 0
         }
       },
-      awakened_amirdrassil_the_dreams_hope: {
+      awakenedAmirdrassilTheDreamsHope: {
         normal: {
           world: 0,
           region: 0,
@@ -56,7 +56,7 @@ guild = {
           realm: 0
         }
       },
-      awakened_aberrus_the_shadowed_crucible: {
+      awakenedAberrusTheShadowedCrucible: {
         normal: {
           world: 0,
           region: 0,
@@ -73,7 +73,7 @@ guild = {
           realm: 0
         }
       },
-      awakened_vault_of_the_incarnates: {
+      awakenedVaultOfTheIncarnates: {
         normal: {
           world: 0,
           region: 0,
@@ -90,7 +90,7 @@ guild = {
           realm: 0
         }
       },
-      amirdrassil_the_dreams_hope: {
+      amirdrassilTheDreamsHope: {
         normal: {
           world: 0,
           region: 0,
@@ -107,7 +107,7 @@ guild = {
           realm: 0
         }
       },
-      aberrus_the_shadowed_crucible: {
+      aberrusTheShadowedCrucible: {
         normal: {
           world: 0,
           region: 0,
@@ -124,7 +124,7 @@ guild = {
           realm: 0
         }
       },
-      vault_of_the_incarnates: {
+      vaultOfTheIncarnates: {
         normal: {
           world: 0,
           region: 0,
@@ -141,7 +141,7 @@ guild = {
           realm: 0
         }
       },
-      fated_sepulcher_of_the_first_ones: {
+      fatedSepulcherOfTheFirstOnes: {
         normal: {
           world: 0,
           region: 0,
@@ -158,7 +158,7 @@ guild = {
           realm: 0
         }
       },
-      fated_sanctum_of_domination: {
+      fatedSanctumOfDomination: {
         normal: {
           world: 0,
           region: 0,
@@ -175,7 +175,7 @@ guild = {
           realm: 0
         }
       },
-      fated_castle_nathria: {
+      fatedCastleNathria: {
         normal: {
           world: 0,
           region: 0,
@@ -192,7 +192,7 @@ guild = {
           realm: 0
         }
       },
-      sepulcher_of_the_first_ones: {
+      sepulcherOfTheFirstOnes: {
         normal: {
           world: 0,
           region: 0,
@@ -209,7 +209,7 @@ guild = {
           realm: 0
         }
       },
-      sanctum_of_domination: {
+      sanctumOfDomination: {
         normal: {
           world: 0,
           region: 0,
@@ -226,7 +226,7 @@ guild = {
           realm: 0
         }
       },
-      castle_nathria: {
+      castleNathria: {
         normal: {
           world: 0,
           region: 0,
@@ -243,7 +243,7 @@ guild = {
           realm: 0
         }
       },
-      nyalotha_the_waking_city: {
+      nyalothaTheWakingCity: {
         normal: {
           world: 0,
           region: 0,
@@ -260,7 +260,7 @@ guild = {
           realm: 0
         }
       },
-      the_eternal_palace: {
+      theEternalPalace: {
         normal: {
           world: 0,
           region: 0,
@@ -277,7 +277,7 @@ guild = {
           realm: 0
         }
       },
-      crucible_of_storms: {
+      crucibleOfStorms: {
         normal: {
           world: 0,
           region: 0,
@@ -294,7 +294,7 @@ guild = {
           realm: 0
         }
       },
-      battle_of_dazaralor: {
+      battleOfDazaralor: {
         normal: {
           world: 0,
           region: 0,
@@ -328,7 +328,7 @@ guild = {
           realm: 0
         }
       },
-      antorus_the_burning_throne: {
+      antorusTheBurningThrone: {
         normal: {
           world: 0,
           region: 0,
@@ -345,7 +345,7 @@ guild = {
           realm: 0
         }
       },
-      tomb_of_sargeras: {
+      tombOfSargeras: {
         normal: {
           world: 0,
           region: 0,
@@ -362,7 +362,7 @@ guild = {
           realm: 0
         }
       },
-      the_nighthold: {
+      theNighthold: {
         normal: {
           world: 0,
           region: 0,
@@ -379,7 +379,7 @@ guild = {
           realm: 0
         }
       },
-      trial_of_valor: {
+      trialOfValor: {
         normal: {
           world: 0,
           region: 0,
@@ -396,7 +396,7 @@ guild = {
           realm: 0
         }
       },
-      the_emerald_nightmare: {
+      theEmeraldNightmare: {
         normal: {
           world: 0,
           region: 0,
@@ -415,7 +415,7 @@ guild = {
       }
     },
     raid_progression: {
-      nerubar_palace: {
+      nerubarPalace: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -423,7 +423,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      blackrock_depths: {
+      blackrockDepths: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -431,7 +431,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      awakened_amirdrassil_the_dreams_hope: {
+      awakenedAmirdrassilTheDreamsHope: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -439,7 +439,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      awakened_aberrus_the_shadowed_crucible: {
+      awakenedAberrusTheIhadowedCrucible: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -447,7 +447,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      awakened_vault_of_the_incarnates: {
+      awakenedVaultOfTheIncarnates: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -455,7 +455,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      amirdrassil_the_dreams_hope: {
+      amirdrassilTheDreamsHope: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -463,7 +463,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      aberrus_the_shadowed_crucible: {
+      aberrusTheShadowedCrucible: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -471,7 +471,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      vault_of_the_incarnates: {
+      vaultOfTheIncarnates: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -479,7 +479,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      fated_sepulcher_of_the_first_ones: {
+      fatedSepulcherOfTheFirstOnes: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -487,7 +487,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      fated_sanctum_of_domination: {
+      fatedSanctumOfDomination: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -495,7 +495,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      fated_castle_nathria: {
+      fatedCastleNathria: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -503,7 +503,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      sepulcher_of_the_first_ones: {
+      sepulcherOfTheFirstOnes: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -511,7 +511,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      sanctum_of_domination: {
+      sanctumOfDomination: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -519,7 +519,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      castle_nathria: {
+      castleNathria: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -527,7 +527,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      nyalotha_the_waking_city: {
+      nyalothaTheWakingCity: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -535,7 +535,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      the_eternal_palace: {
+      theEternalPalace: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -543,7 +543,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      crucible_of_storms: {
+      crucibleOfStorms: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -551,7 +551,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      battle_of_dazaralor: {
+      battleOfDazaralor: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -567,7 +567,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      antorus_the_burning_throne: {
+      antorusTheBurningThrone: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -575,7 +575,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      tomb_of_sargeras: {
+      tombOfSargeras: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -583,7 +583,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      the_nighthold: {
+      theNighthold: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -591,7 +591,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      trial_of_valor: {
+      trialOfValor: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -599,7 +599,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      the_emerald_nightmare: {
+      theEmeraldNightmare: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -633,12 +633,16 @@ function GetGuildStats(region, realm, name){
         guildData.raid_progression
     )
 })
-.catch(error => console.error("error fetchiung guild data:", error));
+.catch(error => console.error("error fetching guild data:", error));
 }
 
 function PrintGuildData(region, realm, name){
     GetGuildStats(region, realm, name).then(newGuildData => {
-        document.getElementById("tryresult").innerText = newGuildData.raid_progression.nerubar_palace.summary;
+        document.getElementById("raid_clear_one").innerText = newGuildData.raid_progression['nerubar-palace'].summary;
+        document.getElementById("raid_rank_one").innerText = newGuildData.raid_rankings['nerubar-palace'].heroic.world + " World, " + 
+        newGuildData.raid_rankings['nerubar-palace'].heroic.region + " Region, " + 
+        newGuildData.raid_rankings['nerubar-palace'].heroic.realm + " Realm.";
     })
 
 }
+
