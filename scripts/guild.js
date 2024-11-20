@@ -439,7 +439,7 @@ guild = {
         heroic_bosses_killed: 0,
         mythic_bosses_killed: 0
       },
-      awakenedAberrusTheIhadowedCrucible: {
+      awakenedAberrusTheshadowedCrucible: {
         summary: "",
         expansion_id: 0,
         total_bosses: 0,
@@ -638,11 +638,15 @@ function GetGuildStats(region, realm, name){
 
 function PrintGuildData(region, realm, name){
     GetGuildStats(region, realm, name).then(newGuildData => {
-        document.getElementById("raid_clear_one").innerText = newGuildData.raid_progression['nerubar-palace'].summary;
-        document.getElementById("raid_rank_one").innerText = newGuildData.raid_rankings['nerubar-palace'].heroic.world + " World, " + 
+        document.getElementById("raid_clear_one").innerText = newGuildData.raid_progression['blackrock-depths'].summary;
+        document.getElementById("raid_rank_one").innerText = newGuildData.raid_rankings['blackrock-depths'].heroic.world + " World, " + 
+        newGuildData.raid_rankings['blackrock-depths'].heroic.region + " Region, " + 
+        newGuildData.raid_rankings['blackrock-depths'].heroic.realm + " Realm.";
+        document.getElementById("raid_clear_two").innerText = newGuildData.raid_progression['blackrock-depths'].summary;
+        document.getElementById("raid_rank_two").innerText = newGuildData.raid_rankings['nerubar-palace'].heroic.world + " World, " + 
         newGuildData.raid_rankings['nerubar-palace'].heroic.region + " Region, " + 
         newGuildData.raid_rankings['nerubar-palace'].heroic.realm + " Realm.";
-    })
+      })
 
 }
 
