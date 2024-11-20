@@ -650,3 +650,4 @@ function PrintGuildData(region, realm, name){
 
 }
 
+PrintGuildData("eu", "stormscale", "disbanded");
