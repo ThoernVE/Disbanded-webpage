@@ -18,3 +18,19 @@
     background-image: url(/images/nerubarpalace.jpg);
     background-size: cover;
 }
+
+.guild_item div:nth-of-type(1){
+    background-color:rgb(212, 197, 173);
+}
+
+.guild_item div:nth-of-type(2){
+    background-color:rgb(212, 197, 173);
+}
+
+.guild_item div:nth-of-type(3){
+    background-color:rgb(212, 197, 173);
+}
+
+.guild_item div:nth-of-type(4){
+    background-color:rgb(212, 197, 173);
+}
