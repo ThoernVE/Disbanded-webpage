@@ -10,21 +10,22 @@
 </head>
 
 <body id="raiderbody">
-  <header>
-    <nav class="container">
-      <a href="index.html" class="item item1">Home</a>
-      <a href="news.html" class="item item2">News</a>
-      <a href="raiders.html" class="item item3">Raiders</a>
-      <a href="results.html" class="item item4">Results</a>
-      <a href="about.html" class="item item5">About</a>
-      <a href="apply.html" class="item item6">Apply</a>
-      <a href="mythicplus.html" class="item item7">Mythic+</a>
-    </nav>
-  </header>
+  <div class="background_overlay">
+    <header>
+      <nav class="container">
+        <a href="index.html" class="item item1">Home</a>
+        <a href="news.html" class="item item2">News</a>
+        <a href="raiders.html" class="item item3">Raiders</a>
+        <a href="results.html" class="item item4">Results</a>
+        <a href="about.html" class="item item5">About</a>
+        <a href="apply.html" class="item item6">Apply</a>
+        <a href="mythicplus.html" class="item item7">Mythic+</a>
+      </nav>
+    </header>
 
-  <h1>The Raiders</h1>  
-  <div class="raider_background">
-    
+    <h1>The Raiders</h1>
+    <div class="raider_background">
+
       <p>Here we have the raiders that were currently active while doing the last boss in the latest raid.<br> Due to a
         lot
         of character-changin with the players, currently this page only shows the characters that were in the group
@@ -33,277 +34,278 @@
       <p>Here you can see the roles for the players, their Mythic Plus score aswell as some personal triva.</p>
     </div>
     <div class="raider_link_container">
-    <div class="raider_item"><a href="#dps" class="raidnavigation">DPS</a></div>
-    <div class="raider_item"><a href="#healer" class="raidnavigation">Healers</a></div>
-    <div class="raider_item"><a href="#tank" class="raidnavigation">Tanks</a></div>
-    
-  </div>
+      <div class="raider_item"><a href="#dps" class="raidnavigation">DPS</a></div>
+      <div class="raider_item"><a href="#healer" class="raidnavigation">Healers</a></div>
+      <div class="raider_item"><a href="#tank" class="raidnavigation">Tanks</a></div>
 
-  <section id="dps">
-    <h1>DPS Players</h1>
+    </div>
 
-    <div class="dps_container">
-      <div class="dps_item">
-        <h3>Poods</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/stormscale/8/170379016-avatar.jpg" alt="Poods Paladin"
-          class="raiderpictures" />
-        <details onclick="RaiderIOFunction('stormscale', 'Poods')">
-          <summary>Raiderinfo</summary>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Retribution Paladin</p>
-          <h5>Favourite Specialization</h5>
-          <p>--</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>--</p>
-          <button onclick="setInnerText(PoodsScore, scoreObject.mPlusScore)">Press button to update score</button>
-          <p id="PoodsScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/id/80844319">Warcraftlogs</a>
-        </details>
-      </div>
+    <section id="dps">
+      <h1>DPS Players</h1>
 
-      <div class="dps_item">
-        <h3>Bada</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/stormscale/208/70444240-avatar.jpg"
-          alt="Bada Deathknight" class="raiderpictures" />
-        <details onclick="RaiderIOFunction('stormscale', 'Bada')">
-          <summary>Raiderinfo</summary>
-          <h5>Main Role</h5>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Frost Death Knight</p>
-          <h5>Favourite Specialization</h5>
-          <p>Unholy Deathknight</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>Queen Ansurek</p>
-          <button onclick="setInnerText(BadaScore, scoreObject.mPlusScore)">Press button to update score</button>
-          <p id="BadaScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/eu/stormscale/bada">Warcraftlogs</a>
-        </details>
-      </div>
+      <div class="dps_container">
+        <div class="dps_item">
+          <h3>Poods</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/stormscale/8/170379016-avatar.jpg"
+            alt="Poods Paladin" class="raiderpictures" />
+          <details onclick="RaiderIOFunction('stormscale', 'Poods')">
+            <summary>Raiderinfo</summary>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Retribution Paladin</p>
+            <h5>Favourite Specialization</h5>
+            <p>--</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>--</p>
+            <button onclick="setInnerText(PoodsScore, scoreObject.mPlusScore)">Press button to update score</button>
+            <p id="PoodsScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/id/80844319">Warcraftlogs</a>
+          </details>
+        </div>
 
-      <div class="dps_item">
-        <h3>Kodhaks</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/stormscale/102/170007910-avatar.jpg"
-          alt="Kodhaks Demon Hunter" class="raiderpictures" />
-        <details onclick="RaiderIOFunction('stormscale', 'Kodhaks')">
-          <summary>Raiderinfo</summary>
-          <h5>Main Role</h5>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Havoc Demon Hunter</p>
-          <h5>Favourite Specialization</h5>
-          <p>Havoc Demon Hunter</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>Queen Ansurek</p>
-          <button onclick="setInnerText(KodhaksScore, scoreObject.mPlusScore)">Press button to update score</button>
-          <p id="KodhaksScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/eu/stormscale/kodhaks">Warcraftlogs</a>
-        </details>
-      </div>
+        <div class="dps_item">
+          <h3>Bada</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/stormscale/208/70444240-avatar.jpg"
+            alt="Bada Deathknight" class="raiderpictures" />
+          <details onclick="RaiderIOFunction('stormscale', 'Bada')">
+            <summary>Raiderinfo</summary>
+            <h5>Main Role</h5>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Frost Death Knight</p>
+            <h5>Favourite Specialization</h5>
+            <p>Unholy Deathknight</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>Queen Ansurek</p>
+            <button onclick="setInnerText(BadaScore, scoreObject.mPlusScore)">Press button to update score</button>
+            <p id="BadaScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/eu/stormscale/bada">Warcraftlogs</a>
+          </details>
+        </div>
 
-      <div class="dps_item">
-        <h3>Jeppamaskin</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/tarren-mill/201/184703689-avatar.jpg"
-          alt="Jeppamaskin Warrior" class="raiderpictures" />
-        <details onclick="RaiderIOFunction('tarren-mill', 'Jeppamaskin')">
-          <summary>Raiderinfo</summary>
-          <h5>Main Role</h5>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Fury Warrior</p>
-          <h5>Favourite Specialization</h5>
-          <p>Holy Paladin</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>Queen Ansurek</p>
-          <button onclick="setInnerText(JeppamaskinScore, scoreObject.mPlusScore)">Press button to update score</button>
-          <p id="JeppamaskinScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/eu/tarren-mill/jeppamaskin">Warcraftlogs</a>
-        </details>
-      </div>
+        <div class="dps_item">
+          <h3>Kodhaks</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/stormscale/102/170007910-avatar.jpg"
+            alt="Kodhaks Demon Hunter" class="raiderpictures" />
+          <details onclick="RaiderIOFunction('stormscale', 'Kodhaks')">
+            <summary>Raiderinfo</summary>
+            <h5>Main Role</h5>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Havoc Demon Hunter</p>
+            <h5>Favourite Specialization</h5>
+            <p>Havoc Demon Hunter</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>Queen Ansurek</p>
+            <button onclick="setInnerText(KodhaksScore, scoreObject.mPlusScore)">Press button to update score</button>
+            <p id="KodhaksScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/eu/stormscale/kodhaks">Warcraftlogs</a>
+          </details>
+        </div>
 
-      <div class="dps_item">
-        <h3>Ginoblin</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/stormscale/110/168334446-avatar.jpg"
-          alt="Ginoblin Priest" class="raiderpictures" />
-        <details onclick="RaiderIOFunction('stormscale', 'Ginoblin')">
-          <summary>Raiderinfo</summary>
-          <h5>Main Role</h5>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Shadow Priest</p>
-          <h5>Favourite Specialization</h5>
-          <p>Shadow Priest</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>Nexus Princess Ky´ Vesa</p>
-          <button onclick="setInnerText(GinoblinScore, scoreObject.mPlusScore)">Press button to update score</button>
-          <p id="GinoblinScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/eu/stormscale/ginoblin">Warcraftlogs</a>
-        </details>
-      </div>
+        <div class="dps_item">
+          <h3>Jeppamaskin</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/tarren-mill/201/184703689-avatar.jpg"
+            alt="Jeppamaskin Warrior" class="raiderpictures" />
+          <details onclick="RaiderIOFunction('tarren-mill', 'Jeppamaskin')">
+            <summary>Raiderinfo</summary>
+            <h5>Main Role</h5>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Fury Warrior</p>
+            <h5>Favourite Specialization</h5>
+            <p>Holy Paladin</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>Queen Ansurek</p>
+            <button onclick="setInnerText(JeppamaskinScore, scoreObject.mPlusScore)">Press button to update
+              score</button>
+            <p id="JeppamaskinScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/eu/tarren-mill/jeppamaskin">Warcraftlogs</a>
+          </details>
+        </div>
 
-      <div class="dps_item">
-        <h3>AppleTurtle</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/stormscale/128/164120960-avatar.jpg"
-          alt="AppleTurtle Hunter" class="raiderpictures" />
-        <details onclick="RaiderIOFunction('stormscale', 'Appleturtle')">
-          <summary>Raiderinfo</summary>
-          <h5>Main Role</h5>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Marksman Hunter</p>
-          <h5>Favourite Specialization</h5>
-          <p>--</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>--</p>
-          <button onclick="setInnerText(AppleturtleScore, scoreObject.mPlusScore)">Press button to update score</button>
-          <p id="AppleturtleScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/eu/stormscale/appleturtle">Warcraftlogs</a>
-        </details>
-      </div>
+        <div class="dps_item">
+          <h3>Ginoblin</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/stormscale/110/168334446-avatar.jpg"
+            alt="Ginoblin Priest" class="raiderpictures" />
+          <details onclick="RaiderIOFunction('stormscale', 'Ginoblin')">
+            <summary>Raiderinfo</summary>
+            <h5>Main Role</h5>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Shadow Priest</p>
+            <h5>Favourite Specialization</h5>
+            <p>Shadow Priest</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>Nexus Princess Ky´ Vesa</p>
+            <button onclick="setInnerText(GinoblinScore, scoreObject.mPlusScore)">Press button to update score</button>
+            <p id="GinoblinScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/eu/stormscale/ginoblin">Warcraftlogs</a>
+          </details>
+        </div>
 
-      <div class="dps_item">
-        <h3>Rejzija</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/stormscale/84/167693908-avatar.jpg" alt="Rejzia Rogue"
-          class="raiderpictures" />
-        <details onclick="RaiderIOFunction('stormscale', 'Rejzija')">
-          <summary>Raiderinfo</summary>
-          <h5>Main Role</h5>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Outlaw Rogue</p>
-          <h5>Favourite Specialization</h5>
-          <p>Outlaw Rogue</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>Nexus Princess Ky´ Vesa</p>
-          <button onclick="setInnerText(RejzijaScore, scoreObject.mPlusScore)">Press button to update score</button>
-          <p id="RejzijaScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/eu/stormscale/rejzija">Warcraftlogs</a>
-        </details>
-      </div>
+        <div class="dps_item">
+          <h3>AppleTurtle</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/stormscale/128/164120960-avatar.jpg"
+            alt="AppleTurtle Hunter" class="raiderpictures" />
+          <details onclick="RaiderIOFunction('stormscale', 'Appleturtle')">
+            <summary>Raiderinfo</summary>
+            <h5>Main Role</h5>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Marksman Hunter</p>
+            <h5>Favourite Specialization</h5>
+            <p>--</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>--</p>
+            <button onclick="setInnerText(AppleturtleScore, scoreObject.mPlusScore)">Press button to update
+              score</button>
+            <p id="AppleturtleScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/eu/stormscale/appleturtle">Warcraftlogs</a>
+          </details>
+        </div>
 
-      <div class="dps_item">
-        <h3>Anýa</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/draenor/173/173162669-avatar.jpg" alt="Anya shaman"
-          class="raiderpictures" />
-        <details onclick="RaiderIOFunction('draenor', 'Anýa')">
-          <summary>Raiderinfo</summary>
-          <h5>Main Role</h5>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Enhancement Shaman</p>
-          <h5>Favourite Specialization</h5>
-          <p>Discipline Priest</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>Silken Court</p>
-          <button onclick="setInnerText(AnýaScore, scoreObject.mPlusScore)">Press button to update score</button>
-          <p id="AnýaScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/eu/draenor/anýa">Warcraftlogs</a>
-        </details>
-      </div>
+        <div class="dps_item">
+          <h3>Rejzija</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/stormscale/84/167693908-avatar.jpg"
+            alt="Rejzia Rogue" class="raiderpictures" />
+          <details onclick="RaiderIOFunction('stormscale', 'Rejzija')">
+            <summary>Raiderinfo</summary>
+            <h5>Main Role</h5>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Outlaw Rogue</p>
+            <h5>Favourite Specialization</h5>
+            <p>Outlaw Rogue</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>Nexus Princess Ky´ Vesa</p>
+            <button onclick="setInnerText(RejzijaScore, scoreObject.mPlusScore)">Press button to update score</button>
+            <p id="RejzijaScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/eu/stormscale/rejzija">Warcraftlogs</a>
+          </details>
+        </div>
 
-      <div class="dps_item">
-        <h3>Pomperriposa</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/stormscale/61/169646397-avatar.jpg"
-          alt="Pomperriposa Warlock" class="raiderpictures" />
-        <details onclick="RaiderIOFunction('stormscale', 'Pomperriposa')">
-          <summary>Raiderinfo</summary>
-          <h5>Main Role</h5>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Demonology Warlock</p>
-          <h5>Favourite Specialization</h5>
-          <p>Demonology Warlock</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>Nexus Princess Ky´ Vesa</p>
-          <button onclick="setInnerText(PomperriposaScore, scoreObject.mPlusScore)">Press button to update
-            score</button>
-          <p id="PomperriposaScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/eu/stormscale/pomperriposa">Warcraftlogs</a>
-        </details>
-      </div>
+        <div class="dps_item">
+          <h3>Anýa</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/draenor/173/173162669-avatar.jpg" alt="Anya shaman"
+            class="raiderpictures" />
+          <details onclick="RaiderIOFunction('draenor', 'Anýa')">
+            <summary>Raiderinfo</summary>
+            <h5>Main Role</h5>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Enhancement Shaman</p>
+            <h5>Favourite Specialization</h5>
+            <p>Discipline Priest</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>Silken Court</p>
+            <button onclick="setInnerText(AnýaScore, scoreObject.mPlusScore)">Press button to update score</button>
+            <p id="AnýaScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/eu/draenor/anýa">Warcraftlogs</a>
+          </details>
+        </div>
 
-      <div class="dps_item">
-        <h3>Grucci</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/stormscale/86/70629718-avatar.jpg"
-          alt="Grucci Warrior" class="raiderpictures" />
-        <details onclick="RaiderIOFunction('stormscale', 'Grucci')">
-          <summary>Raiderinfo</summary>
-          <h5>Main Role</h5>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Arms Warrior</p>
-          <h5>Favourite Specialization</h5>
-          <p>--</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>--</p>
-          <button onclick="setInnerText(GrucciScore, scoreObject.mPlusScore)">Press button to update score</button>
-          <p id="GrucciScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/eu/stormscale/grucci">Warcraftlogs</a>
-        </details>
-      </div>
+        <div class="dps_item">
+          <h3>Pomperriposa</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/stormscale/61/169646397-avatar.jpg"
+            alt="Pomperriposa Warlock" class="raiderpictures" />
+          <details onclick="RaiderIOFunction('stormscale', 'Pomperriposa')">
+            <summary>Raiderinfo</summary>
+            <h5>Main Role</h5>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Demonology Warlock</p>
+            <h5>Favourite Specialization</h5>
+            <p>Demonology Warlock</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>Nexus Princess Ky´ Vesa</p>
+            <button onclick="setInnerText(PomperriposaScore, scoreObject.mPlusScore)">Press button to update
+              score</button>
+            <p id="PomperriposaScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/eu/stormscale/pomperriposa">Warcraftlogs</a>
+          </details>
+        </div>
 
-      <div class="dps_item">
-        <h3>Flaplap</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/stormscale/155/172833179-avatar.jpg"
-          alt="Flaplap Druid" class="raiderpictures" />
-        <details onclick="RaiderIOFunction('stormscale', 'Flaplap')">
-          <summary>Raiderinfo</summary>
-          <h5>Main Role</h5>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Balance Druid</p>
-          <h5>Favourite Specialization</h5>
-          <p>Balance Druid</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>Silken Court</p>
-          <button onclick="setInnerText(FlaplapScore, scoreObject.mPlusScore)">Press button to update score</button>
-          <p id="FlaplapScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/eu/stormscale/flaplap">Warcraftlogs</a>
-        </details>
-      </div>
+        <div class="dps_item">
+          <h3>Grucci</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/stormscale/86/70629718-avatar.jpg"
+            alt="Grucci Warrior" class="raiderpictures" />
+          <details onclick="RaiderIOFunction('stormscale', 'Grucci')">
+            <summary>Raiderinfo</summary>
+            <h5>Main Role</h5>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Arms Warrior</p>
+            <h5>Favourite Specialization</h5>
+            <p>--</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>--</p>
+            <button onclick="setInnerText(GrucciScore, scoreObject.mPlusScore)">Press button to update score</button>
+            <p id="GrucciScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/eu/stormscale/grucci">Warcraftlogs</a>
+          </details>
+        </div>
 
-      <div class="dps_item">
-        <h3>Chibla</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/stormscale/46/161790766-avatar.jpg"
-          alt="Chibla shaman" class="raiderpictures" />
-        <details onclick="RaiderIOFunction('stormscale', 'Chibla')">
-          <summary>Raiderinfo</summary>
-          <h5>Main Role</h5>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Enhancement Shaman</p>
-          <h5>Favourite Specialization</h5>
-          <p>--</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>--</p>
-          <button onclick="setInnerText(ChiblaScore, scoreObject.mPlusScore)">Press button to update score</button>
-          <p id="ChiblaScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/eu/stormscale/chibla">Warcraftlogs</a>
-        </details>
-      </div>
+        <div class="dps_item">
+          <h3>Flaplap</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/stormscale/155/172833179-avatar.jpg"
+            alt="Flaplap Druid" class="raiderpictures" />
+          <details onclick="RaiderIOFunction('stormscale', 'Flaplap')">
+            <summary>Raiderinfo</summary>
+            <h5>Main Role</h5>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Balance Druid</p>
+            <h5>Favourite Specialization</h5>
+            <p>Balance Druid</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>Silken Court</p>
+            <button onclick="setInnerText(FlaplapScore, scoreObject.mPlusScore)">Press button to update score</button>
+            <p id="FlaplapScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/eu/stormscale/flaplap">Warcraftlogs</a>
+          </details>
+        </div>
 
-      <div class="dps_item">
-        <h3>Fastass</h3>
-        <img src="https://render.worldofwarcraft.com/eu/character/stormscale/162/172286114-avatar.jpg"
-          alt="Fastass Monk" class="raiderpictures" />
-        <details onclick="RaiderIOFunction('stormscale', 'Fastass')">
-          <summary>Raiderinfo</summary>
-          <h5>Main Role</h5>
-          <p>DPS</p>
-          <h5>Main Specialization</h5>
-          <p>Windwalker Monk</p>
-          <h5>Favourite Specialization</h5>
-          <p>Demonology Warlock</p>
-          <h5>Favourite Boss in current Raid</h5>
-          <p>Queen Ansurek</p>
-          <button onclick="setInnerText(FastassScore, scoreObject.mPlusScore)">Press button to update score</button>
-          <p id="FastassScore">--</p>
-          <a href="https://www.warcraftlogs.com/character/eu/stormscale/fastass">Warcraftlogs</a>
-        </details>
-      </div>
-  </section>
-  </div>
+        <div class="dps_item">
+          <h3>Chibla</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/stormscale/46/161790766-avatar.jpg"
+            alt="Chibla shaman" class="raiderpictures" />
+          <details onclick="RaiderIOFunction('stormscale', 'Chibla')">
+            <summary>Raiderinfo</summary>
+            <h5>Main Role</h5>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Enhancement Shaman</p>
+            <h5>Favourite Specialization</h5>
+            <p>--</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>--</p>
+            <button onclick="setInnerText(ChiblaScore, scoreObject.mPlusScore)">Press button to update score</button>
+            <p id="ChiblaScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/eu/stormscale/chibla">Warcraftlogs</a>
+          </details>
+        </div>
+
+        <div class="dps_item">
+          <h3>Fastass</h3>
+          <img src="https://render.worldofwarcraft.com/eu/character/stormscale/162/172286114-avatar.jpg"
+            alt="Fastass Monk" class="raiderpictures" />
+          <details onclick="RaiderIOFunction('stormscale', 'Fastass')">
+            <summary>Raiderinfo</summary>
+            <h5>Main Role</h5>
+            <p>DPS</p>
+            <h5>Main Specialization</h5>
+            <p>Windwalker Monk</p>
+            <h5>Favourite Specialization</h5>
+            <p>Demonology Warlock</p>
+            <h5>Favourite Boss in current Raid</h5>
+            <p>Queen Ansurek</p>
+            <button onclick="setInnerText(FastassScore, scoreObject.mPlusScore)">Press button to update score</button>
+            <p id="FastassScore">--</p>
+            <a href="https://www.warcraftlogs.com/character/eu/stormscale/fastass">Warcraftlogs</a>
+          </details>
+        </div>
+    </section>
 
   <section id="healer">
     <h1>Healers</h1>
@@ -410,7 +412,6 @@
         </details>
       </div>
   </section>
-  </div>
 
   <section>
     <h1 id="tank">Tanks</h1>
@@ -472,6 +473,7 @@
       </div>
     </div>
   </footer>
+  </div>
 </body>
 
 </html>

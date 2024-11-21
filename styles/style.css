@@ -1,9 +1,10 @@
 html{
     text-align: center;
+    font-size: 18px;
 }
 
 header{
-    color: gold;
+    color:rgb(212, 197, 173);
     background-image: url(/images/disbandedheader-removebg-preview.png);
     background-size: 400px, 700px;
     height: 460px;
@@ -16,12 +17,25 @@ header{
     
 }
 
+
 body
 {
-background-color: rgb(123, 116, 104);
-color: rgb(252, 239, 162);
+color:rgb(212, 197, 173);
 font-family: 'Courier New', Courier, monospace;
+background-image: url(/images/Thewarwithin.jpg);
+background-attachment: fixed;
+background-size: cover;
+background-color: rgba(3, 3, 3, 0.507) !important;
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
 }
+
+.background_overlay{
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 100%;
+    height: 100%;
+}
+
+
 
 article{
     margin: 100px;
@@ -59,7 +73,7 @@ footer a:hover{
 }
 
 a{
-    color:aliceblue;
+    color:rgb(0, 0, 0);
 }
 
 section{
@@ -67,8 +81,7 @@ section{
 }
 
 a:hover{
-    color: burlywood;
-    font-weight: bold;
+    color: rgb(90, 90, 90);
 }
 
 .container{
