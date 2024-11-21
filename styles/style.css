@@ -35,6 +35,10 @@ box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
     height: 100%;
 }
 
+img{
+    background-color: rgb(212, 197, 173);
+}
+
 
 
 article{
