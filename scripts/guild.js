@@ -642,7 +642,7 @@ function PrintGuildData(region, realm, name){
         document.getElementById("raid_rank_one").innerText = newGuildData.raid_rankings['blackrock-depths'].heroic.world + " World, " + 
         newGuildData.raid_rankings['blackrock-depths'].heroic.region + " Region, " + 
         newGuildData.raid_rankings['blackrock-depths'].heroic.realm + " Realm.";
-        document.getElementById("raid_clear_two").innerText = newGuildData.raid_progression['blackrock-depths'].summary;
+        document.getElementById("raid_clear_two").innerText = newGuildData.raid_progression['nerubar-palace'].summary;
         document.getElementById("raid_rank_two").innerText = newGuildData.raid_rankings['nerubar-palace'].heroic.world + " World, " + 
         newGuildData.raid_rankings['nerubar-palace'].heroic.region + " Region, " + 
         newGuildData.raid_rankings['nerubar-palace'].heroic.realm + " Realm.";
