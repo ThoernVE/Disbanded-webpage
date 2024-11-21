@@ -1,3 +1,9 @@
+.guild_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .guild_item{
     background-color:rgb(212, 197, 173);
     color: black;
@@ -8,6 +14,14 @@
     margin-right: 10%;
     margin-bottom: 5%;
     height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.guild_item div{
+    margin-bottom: 1%;
 }
 
 .item_1{
@@ -20,17 +34,25 @@
 }
 
 .guild_item div:nth-of-type(1){
-    background-color:rgb(212, 197, 173);
+    color:rgb(212, 197, 173);
+    background-color: rgba(0, 0, 0, 0.699);
+    font-size: 70px;
 }
 
 .guild_item div:nth-of-type(2){
-    background-color:rgb(212, 197, 173);
+    color:rgb(212, 197, 173);
+    background-color: rgba(0, 0, 0, 0.699);
+    font-size: 20px;
 }
 
 .guild_item div:nth-of-type(3){
-    background-color:rgb(212, 197, 173);
+    color:rgb(212, 197, 173);
+    background-color: rgba(0, 0, 0, 0.699);
+    font-size: 50px;
 }
 
 .guild_item div:nth-of-type(4){
-    background-color:rgb(212, 197, 173);
+    color:rgb(212, 197, 173);
+    background-color: rgba(0, 0, 0, 0.699);
+    font-size: 35px;
 }
