@@ -25,11 +25,11 @@
 }
 
 .item_1{
-    background-image: url(/images/Blackrock-Depths.jpg);
+    background-image: url(../images/Blackrock-Depths.jpg);
 }
 
 .item_2{
-    background-image: url(/images/nerubarpalace.jpg);
+    background-image: url(../images/nerubarpalace.jpg);
     background-size: cover;
 }
 
