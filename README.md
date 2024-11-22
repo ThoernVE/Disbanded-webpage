@@ -16,24 +16,24 @@ Viktor Thörn, ThoernVE
 ## Pages
 
 ### HTML
-about.html
-apply.html
-index.html
-mythicplus.html
-news.html
-raiders.html
-results.html
+about.html  
+apply.html  
+index.html  
+mythicplus.html  
+news.html  
+raiders.html  
+results.html  
 
 ### Javascript
-guild.js
-script.js
+guild.js  
+script.js  
 
 ### CSS
-about.css
-apply.css
-index.css
-mplus.css
-news.css
-raider.css
-results.css
-style.css
+about.css  
+apply.css  
+index.css  
+mplus.css  
+news.css  
+raider.css  
+results.css  
+style.css  
