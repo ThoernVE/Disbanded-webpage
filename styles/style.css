@@ -5,7 +5,7 @@ html{
 
 header{
     color:rgb(212, 197, 173);
-    background-image: url(images\disbandedheader-removebg-preview.png);
+    background-image: url(../images/disbandedheader-removebg-preview.png);
     background-size: 400px, 700px;
     height: 460px;
     width: 100%;
@@ -22,7 +22,7 @@ body
 {
 color:rgb(212, 197, 173);
 font-family: 'Courier New', Courier, monospace;
-background-image: url(images\Thewarwithin.jpg);
+background-image: url(../images\Thewarwithin.jpg);
 background-attachment: fixed;
 background-size: cover;
 background-color: rgba(3, 3, 3, 0.507) !important;
